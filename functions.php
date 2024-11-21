@@ -9,6 +9,22 @@
  * @since Twenty Twenty-Five 1.0
  */
 
+// add mathjax scripts
+
+function enqueue_mathjax() {
+	echo '<script type="text/javascript">
+    MathJax = {
+        tex: { inlineMath: [["$", "$"], ["\\(", "\\)"]] },
+        options: { skipHtmlTags: ["script", "noscript", "style", "textarea", "pre"] }
+    };
+	</script>';
+	$script_url = get_template_directory_uri() . '/scripts/scripts/tex-mml-chtml.js';
+	echo '<script type="text/javascript" id="MathJax-script" async 
+        src="' . $script_url . '"></script>';
+
+}
+add_action('wp_head', 'enqueue_mathjax');
+
 // Adds theme support for post formats.
 if ( ! function_exists( 'twentytwentyfive_post_format_setup' ) ) :
 	/**
