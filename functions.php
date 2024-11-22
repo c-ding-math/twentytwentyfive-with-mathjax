@@ -15,7 +15,7 @@ function enqueue_mathjax() {
 	echo '<script type="text/javascript">
     MathJax = {
 		svg: { scale: 0.9 },
-        tex: { inlineMath: [["$", "$"]},
+        tex: { inlineMath: [["$", "$"]]},
         options: { skipHtmlTags: ["script", "noscript", "style", "textarea", "pre"] }
     };
 	</script>';
