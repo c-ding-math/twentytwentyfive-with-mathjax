@@ -1,6 +1,6 @@
 /*
 Theme Name: Twenty Twenty-Five With Mathjax
-Theme URI: https://wordpress.org/themes/twentytwentyfivewithmathjax/
+Theme URI: https://wordpress.org/themes/twentytwentyfivemathjax/
 Author: Functor Network
 Author URI: https://functor.network
 Description: The theme adds MathJax support to the official WordPress Twenty Twenty-Five theme. With this theme, text enclosed in $...$ will render as inline math, while text enclosed in $$...$$ will rendered as display math. If you're unable to install plugins on WordPress.com, this theme provides an easy way to enable MathJax functionality.
@@ -10,7 +10,7 @@ Requires PHP: 7.2
 Version: 1.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: twentytwentyfivewithmathjax
+Text Domain: twentytwentyfivemathjax
 Tags: mathjax, latex, one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments, translation-ready, wide-blocks, block-styles, style-variations, accessibility-ready, blog, portfolio, news
 */
 
