@@ -83,6 +83,7 @@
 					'<a href="' . esc_url( __( 'https://wordpress.org', 'twentytwentyfive' ) ) . '" rel="nofollow">WordPress</a>'
 				);
 				?>
+				<span>Modified by <a href="https://functor.network">Functor Network</a></span>
 			</p>
 			<!-- /wp:paragraph -->
 		</div>
