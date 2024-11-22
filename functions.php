@@ -18,7 +18,7 @@ function enqueue_mathjax() {
         options: { skipHtmlTags: ["script", "noscript", "style", "textarea", "pre"] }
     };
 	</script>';
-	$script_url = get_stylesheet_directory_uri() . '/scripts/tex-mml-chtml.js';
+	$script_url = get_stylesheet_directory_uri() . '/scripts/tex-svg.js';
 	echo '<script type="text/javascript" id="MathJax-script" async 
         src="' . $script_url . '"></script>';
 
